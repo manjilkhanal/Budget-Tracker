@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+   background-size: cover;
+   
+  
+}
+.loginbox{
+    width: 320px;
+    height: 455px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%; 
+    position:absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align:center;
+    font-size: 22px;
+}
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.loginbox input[type="date"]
+{
+    border:none;
+    border-bottom:1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline:none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20 px;
+}
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color:#000;
+}
+.tableone{
+    width :1200px;
+    height: 750px;
+    background: #000;
+    color: #fff;
+    top: 147%;
+    left: 58%;
+    bottom: 20%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding:15px 15px;
+}
+.btn-primary{
+    background-color: #0066ff;
+    color: #fff;
+    }
+.btn-danger{
+    background-color: #cc2900;
+    color:#fff
+    }
+.white{
+    color: #fff;
+}
